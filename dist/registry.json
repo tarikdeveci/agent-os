@@ -1,0 +1,149 @@
+[
+  {
+    "name": "job-hunter",
+    "codex_name": "job_hunter",
+    "domain": "career",
+    "model": "inherit",
+    "description": "Job search and opportunity strategist. Use for finding and qualifying roles, matching them against a profile, planning applications, and prioritizing where to spend effort. Answers \"which opportunities are worth going after and why.\""
+  },
+  {
+    "name": "outreach-writer",
+    "codex_name": "outreach_writer",
+    "domain": "career",
+    "model": "inherit",
+    "description": "Cold outreach and follow-up copywriter for job search, networking, and B2B. Use to write personalized cold emails/DMs and multi-touch follow-up sequences that get replies. Always produces DRAFTS for human review — never sends."
+  },
+  {
+    "name": "resume-tailor",
+    "codex_name": "resume_tailor",
+    "domain": "career",
+    "model": "inherit",
+    "description": "Résumé, CV, and cover-letter specialist. Use to tailor a CV/résumé to a specific job description, sharpen bullet points into impact statements, optimize for ATS keywords, and produce clean formatted documents (including LaTeX). Answers \"make my application land for this role.\""
+  },
+  {
+    "name": "content-strategist",
+    "codex_name": "content_strategist",
+    "domain": "content",
+    "model": "inherit",
+    "description": "Content and marketing copy specialist. Use to plan and write content across channels — blog posts, landing pages, social, email newsletters, SEO copy, product announcements — and to keep it on-brand. Answers \"what should we say, where, and in what words.\""
+  },
+  {
+    "name": "video-producer",
+    "codex_name": "video_producer",
+    "domain": "content",
+    "model": "inherit",
+    "description": "Video creation specialist. Use to plan and produce video content — explainers, ads/TVCs, social shorts, talking-head/UGC, product demos — via AI generation and programmatic tools. Answers \"turn this brief into a finished video.\""
+  },
+  {
+    "name": "visual-designer",
+    "codex_name": "visual_designer",
+    "domain": "content",
+    "model": "inherit",
+    "description": "Visual and image design specialist. Use to create or edit images and graphics — brand assets, hero/social images, product mockups, illustrations, posters, thumbnails, OG images — and to optimize them. Answers \"make the visual for this.\""
+  },
+  {
+    "name": "market-analyst",
+    "codex_name": "market_analyst",
+    "domain": "growth",
+    "model": "inherit",
+    "description": "Market, competitor, and performance-analysis specialist. Use for competitive research, positioning, market sizing, pricing context, and reading performance metrics into decisions. Answers \"what's the landscape, where's the gap, and what do the numbers say.\""
+  },
+  {
+    "name": "ops-automator",
+    "codex_name": "ops_automator",
+    "domain": "growth",
+    "model": "inherit",
+    "description": "Automation and workflow-ops specialist. Use to set up recurring tasks, scheduled/cron agents, hooks, and tool configuration that remove manual toil. Answers \"make this happen automatically and reliably.\""
+  },
+  {
+    "name": "chief-of-staff",
+    "codex_name": "chief_of_staff",
+    "domain": "personal",
+    "model": "inherit",
+    "description": "Top-level orchestrator and planner across every life domain. Use as the FIRST point of contact for a broad, multi-part, or ambiguous goal — it breaks the work down, routes each piece to the right specialist agent, tracks progress, and keeps the user's context and priorities straight. Answers \"here's a big messy thing, coordinate it.\""
+  },
+  {
+    "name": "document-writer",
+    "codex_name": "document_writer",
+    "domain": "personal",
+    "model": "inherit",
+    "description": "Polished document, spreadsheet, and deck producer. Use to create or edit professional deliverables — Word docs, PDFs, slide decks, spreadsheets — with proper formatting, structure, and theming. Answers \"turn this into a clean, finished document/sheet/deck.\""
+  },
+  {
+    "name": "inbox-manager",
+    "codex_name": "inbox_manager",
+    "domain": "personal",
+    "model": "inherit",
+    "description": "Email triage and drafting assistant. Use to triage an inbox, summarize threads, surface what needs action, and prepare reply DRAFTS. Answers \"deal with my email\" — by reading, organizing, and drafting, never by sending."
+  },
+  {
+    "name": "knowledge-synthesizer",
+    "codex_name": "knowledge_synthesizer",
+    "domain": "research",
+    "model": "inherit",
+    "description": "Knowledge-structuring specialist. Use to turn a pile of material — a codebase, docs, papers, notes, transcripts — into structured, navigable knowledge: knowledge graphs, wikis, summaries, and maps of how things relate. Answers \"make sense of all this and give me a map.\""
+  },
+  {
+    "name": "researcher",
+    "codex_name": "researcher",
+    "domain": "research",
+    "model": "inherit",
+    "description": "Deep research specialist. Use for open-ended questions that need gathering, cross-checking, and synthesizing information from many sources — technical, market, academic, or general. Answers \"find out the truth about X and tell me what matters, with sources.\""
+  },
+  {
+    "name": "code-reviewer",
+    "codex_name": "code_reviewer",
+    "domain": "software",
+    "model": "inherit",
+    "description": "Code review specialist. Use PROACTIVELY right after a change is written and before it merges — to review a diff for correctness, clarity, simplicity, security, and fit with the codebase. Returns ranked, actionable findings, not vague praise."
+  },
+  {
+    "name": "feasibility-analyst",
+    "codex_name": "feasibility_analyst",
+    "domain": "software",
+    "model": "inherit",
+    "description": "Reality-check and estimation specialist. Use PROACTIVELY before committing to a plan to assess effort, timeline, risk, dependencies, and build-vs-buy. Answers \"can we actually do this, how long, what could go wrong, and what's the cheapest way to find out.\""
+  },
+  {
+    "name": "frontend-craftsman",
+    "codex_name": "frontend_craftsman",
+    "domain": "software",
+    "model": "inherit",
+    "description": "Front-end and UI/UX craft specialist. Use PROACTIVELY for any user-facing interface work — websites, landing pages, dashboards, product UI, components, forms, empty/error states, responsive and theme behavior, motion, and visual polish. Turns \"make it look and feel right\" into shipped, accessible, high-craft UI."
+  },
+  {
+    "name": "implementer",
+    "codex_name": "implementer",
+    "domain": "software",
+    "model": "inherit",
+    "description": "Senior engineer that writes production-quality code. Use PROACTIVELY to implement a feature, fix a bug, refactor, or wire up an integration once the approach is clear. Owns clean, tested, working code that fits the existing codebase."
+  },
+  {
+    "name": "product-strategist",
+    "codex_name": "product_strategist",
+    "domain": "software",
+    "model": "inherit",
+    "description": "Product owner for engineering work. Use PROACTIVELY at the start of any feature or project to define the problem, the user value, scope, requirements, and acceptance criteria — and to cut scope ruthlessly. Answers \"what should we build and why, and how will we know it's done.\""
+  },
+  {
+    "name": "red-team",
+    "codex_name": "red_team",
+    "domain": "software",
+    "model": "inherit",
+    "description": "Adversarial reviewer and devil's advocate. Use PROACTIVELY before shipping anything important — a design, a plan, an implementation, a security-sensitive change — to attack assumptions, find failure modes, threat-model, and surface what everyone else missed. Its job is to try to break it, on purpose."
+  },
+  {
+    "name": "tech-lead",
+    "codex_name": "tech_lead",
+    "domain": "software",
+    "model": "inherit",
+    "description": "Technical decision-maker and architect. Use PROACTIVELY when a task needs an architecture decision, technology/library choice, system design, sequencing of a large change, an ADR, or a \"how should we build this\" call. Owns trade-off analysis and the final technical recommendation before code is written."
+  },
+  {
+    "name": "test-engineer",
+    "codex_name": "test_engineer",
+    "domain": "software",
+    "model": "inherit",
+    "description": "Test and quality engineer. Use PROACTIVELY to design a test strategy, write unit/integration/e2e tests, drive TDD, improve coverage of the risky paths, and build fixtures. Owns \"how do we know this works and keeps working.\""
+  }
+]

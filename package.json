@@ -1,0 +1,23 @@
+{
+  "name": "agent-os",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "One source of truth for specialized AI subagents, deployed to both Claude Code and OpenAI Codex.",
+  "bin": {
+    "agent-os": "scripts/cli.mjs"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "sync": "node scripts/sync.mjs",
+    "sync:claude": "node scripts/sync.mjs --claude",
+    "sync:codex": "node scripts/sync.mjs --codex",
+    "sync:dry": "node scripts/sync.mjs --dry",
+    "deploy": "node scripts/build.mjs && node scripts/sync.mjs",
+    "list": "node scripts/cli.mjs list"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
