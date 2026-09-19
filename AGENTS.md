@@ -25,3 +25,6 @@ This repository is the **single source of truth** for a fleet of specialized sub
 - `outreach_writer` and `inbox_manager` produce **drafts only** — never send.
 - `market_analyst` gives **no personalized financial/investment advice**.
 - Report honestly: if something failed or is unverified, say so.
+
+## Account handoff on usage limits
+When a Claude Code session hits its usage limit mid-task, a `StopFailure` hook (`~/.claude/fallback/devir-otomatik.mjs`) hands the same conversation to the next account in the chain (secondary Claude account → Codex), writing a handoff file to `docs/handoff/` (or `~/.claude/handoff/` for scratch sessions). If an `agents/` role was active (spawned via the Agent/Task tool) when the limit hit, the handoff file names it under "Aktif agent-os rolü" — the agent picking up the work should adopt that same role (read `agents/<domain>/<name>.md`) before continuing, rather than starting over as a generalist. This applies in Codex too, since the roster is already deployed there (`~/.codex/agents/*.toml`).
